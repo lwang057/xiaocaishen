@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0088ed</color>
+
+
+    <color name="activity_back">#f3f3f3</color>
+    <color name="gray_96">#969696</color>
+    <color name="gray_55">#555555</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_51">#515151</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_f9">#f9f9f9</color>
+    <color name="gray_de">#dedede</color>
+    <color name="white_f">#fff</color>
+    <color name="white_ff">#ffffff</color>
+    <color name="white_f3">#f3f3f3</color>
+    <color name="black_33">#333333</color>
+
+
+    <color name="permission_back_c">#f1f4ff</color>
+    <color name="permission_back_b">#e5e5fe</color>
+    <color name="permission_back_a">#dcdefd</color>
+
+
+    <color name="state_back">#1e7ae6</color>
+    <color name="grade_back">#fdc048</color>
+    <color name="grade_back_1">#ffebc5</color>
+    <color name="grade_stock">#f49c13</color>
+    <color name="grade_sign">#73bcc7</color>
+    <color name="grade_dynamic">#046e92</color>
+    <color name="grade_credit">#f19b87</color>
+
+    <color name="pop_back">#423B3E</color>
+    <color name="pop_bak">#fcd7df</color>
+    <color name="pop_baks">#f99ca2</color>
+
+    <color name="text_color_blue_light">#29b6f6</color>
+    <color name="text_color_blue_deep">#0277bd</color>
+    <color name="color_null">#00ffffff</color>
+    <color name="bg_gray_deep">#b5b5b5</color>
+
+    <color name="line_color">#eae9ec</color>
+    <color name="line_color1">#dedede</color>
+
+
+    <!--百分之10的透明度-->
+    <color name="transparence">#1A000000</color>
+    <color name="transt">#1600</color>
+    <color name="transt50">#20000000</color>
+    <!--95%不透明的白色-->
+    <color name="color_f2ffffff">#f2ffffff</color>
+
+
+</resources>

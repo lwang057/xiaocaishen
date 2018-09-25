@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_back">
+
+    <include
+        layout="@layout/toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin50"
+        android:layout_marginLeft="@dimen/margin10"
+        android:layout_marginRight="@dimen/margin10"
+        android:layout_marginTop="@dimen/margin30"
+        android:background="@drawable/rounded_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin10"
+        android:paddingRight="@dimen/margin10"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_phone" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin10"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/input_phone_num"
+            android:inputType="phone"
+            android:paddingLeft="@dimen/margin10"
+            android:textColor="@color/gray_99"
+            android:textSize="@dimen/textSize16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin50"
+        android:layout_marginLeft="@dimen/margin10"
+        android:layout_marginRight="@dimen/margin10"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="@drawable/rounded_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin10"
+        android:paddingRight="@dimen/margin10"
+        app:layout_constraintTop_toBottomOf="@+id/ll_phone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_password" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin10"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/input_phone_password"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/margin10"
+            android:textColor="@color/gray_99"
+            android:textSize="@dimen/textSize16" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin40"
+        android:layout_marginLeft="@dimen/margin30"
+        android:layout_marginRight="@dimen/margin30"
+        android:layout_marginTop="@dimen/margin50"
+        android:background="@drawable/btn_backgroud"
+        android:text="@string/login"
+        android:textColor="@color/white_ff"
+        android:textSize="@dimen/textSize18"
+        app:layout_constraintTop_toBottomOf="@+id/ll_password" />
+
+    <Button
+        android:id="@+id/btn_register_account"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin40"
+        android:layout_marginLeft="@dimen/margin30"
+        android:layout_marginRight="@dimen/margin30"
+        android:layout_marginTop="@dimen/margin50"
+        android:background="@drawable/btn_backgroud"
+        android:text="@string/register_account"
+        android:textColor="@color/white_ff"
+        android:textSize="@dimen/textSize16"
+        android:layout_marginBottom="@dimen/margin20"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
