@@ -40,5 +40,15 @@ public interface AppContract {
         void showResult();
     }
 
+    interface OrderDetailView extends IBaseView {
+        void showResult();
+    }
 
+    interface FindPwdView extends IBaseView {
+        void showResult();
+    }
+
+    interface ResetPwdView extends IBaseView {
+        void showResult();
+    }
 }
