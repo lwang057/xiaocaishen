@@ -1,5 +1,6 @@
 package com.xcs.xiaocaishen.ui.activity;
 
+import com.xcs.xiaocaishen.R;
 import com.xcs.xiaocaishen.presenter.OrderDetailPresenter;
 import com.xcs.xiaocaishen.ui.AppContract;
 
@@ -12,12 +13,12 @@ public class OrderDetailActivity extends BaseActivity<OrderDetailPresenter> impl
 
     @Override
     protected int getLayoutId() {
-        return 0;
+        return R.layout.activity_order_detail;
     }
 
     @Override
     protected String getActivityTitle() {
-        return null;
+        return "订单详情";
     }
 
     @Override
