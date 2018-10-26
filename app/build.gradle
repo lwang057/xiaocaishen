@@ -70,4 +70,6 @@ dependencies {
     // MaterialDialog
     compile 'com.afollestad.material-dialogs:core:0.9.6.0'
 
+    // xRecyclerview
+//    compile 'com.jcodecraeer:xrecyclerview:1.5.9'
 }
